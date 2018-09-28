@@ -1,7 +1,7 @@
 import pytest
 
 
-class Test{{ cookiecutter.project_slug|title }}:
+class TestFundamentals:
     """Tests for `{{ cookiecutter.project_slug }}` package."""
 
     @pytest.fixture
