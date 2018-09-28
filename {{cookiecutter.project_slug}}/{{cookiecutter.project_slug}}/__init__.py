@@ -1,1 +1,1 @@
-"""{{ cookiecutter.project_slug }} - {{ cookiecutter.package_description }}"""
+"""{{ cookiecutter.project_slug }} - {{ cookiecutter.package_description }}."""
