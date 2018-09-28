@@ -1,0 +1,11 @@
+language: python
+sudo: false
+cache:
+- pip
+- apt
+python:
+- 3.6
+install:
+- pip install -r requirements-dev.txt
+script:
+- pytest
