@@ -1,3 +1,4 @@
 {
-    "project_slug": "django_project"
+    "project_slug": "django_project",
+    "package_description": "A package that does one thing and does it well"
 }
