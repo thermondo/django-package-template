@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'zv6^b42arp484pf2yzvprf5(d4cp24^q%30$+e+)gcv9tyiv*('
+SECRET_KEY = 'j66!llq)+*mnfztjfu0(j^x@cai5%(lf#ysxmq(*7@-2iqprp*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    'tests.testapp',
     '{{ cookiecutter.project_slug }}',
 ]
 
@@ -51,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'testapp.urls'
+ROOT_URLCONF = 'tests.testapp.urls'
 
 TEMPLATES = [
     {
