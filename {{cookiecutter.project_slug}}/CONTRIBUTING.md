@@ -29,3 +29,12 @@ to add code to their runtime environment that they don't need.
 
 All features need to be tested. A CI suite should be in place. Running and
 writing tests should be reasonably accessible for first time contributors.
+
+
+## Release
+
+We follow [semantic versioning](https://semver.org/). To release a new version
+simply [create a new GitHub release][create-release] specify the version and
+add the changelog into the release description.
+
+[create-release]: https://github.com/Thermondo/{{ cookiecutter.project_slug }}/releases/new
