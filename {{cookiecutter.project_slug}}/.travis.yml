@@ -2,4 +2,6 @@ language: python
 sudo: false
 cache: pip
 python: 3.6
-script: python setup.py test
+install: pip install -U codecov
+script: coverage run setup.py test
+after_success: codecov
