@@ -11,7 +11,7 @@ This package follows a couple of MUST have design principles.
 
 ##### Maintainable
 
-The package and it's features needs to be maintainable. It is more important
+The package and it is features needs to be maintainable. It is more important
 upgrade to the latest Django or Python release than it is to add more
 features.
 
