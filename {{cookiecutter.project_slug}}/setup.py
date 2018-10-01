@@ -3,5 +3,7 @@ from setuptools import setup
 
 
 setup(
-     setup_requires=['pytest-runner']
+    install_requires=['Django'],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest', 'pytest-django'],
 )

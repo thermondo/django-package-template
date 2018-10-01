@@ -1,7 +1,7 @@
-lanuage: python
-sudo: required
-dist: xenial
+language: python
 cache: pip
-python: 3.7
-install: pip install --user --upgrade cookiecutter
-script: cookiecutter . --no-input --output-dir test_project
+python: 3.6
+install: pip install --upgrade cookiecutter
+script:
+  - cookiecutter . --no-input --output-dir .
+  - (cd django_project && python setup.py test)
