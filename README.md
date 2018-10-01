@@ -1,25 +1,23 @@
-# python-package-template
+# Django Package Template
+
 Cookiecutter template for Python packages
 
-Setup
------
+### Usage
 
 1. Install cookiecutter on your machine:
 
-`pip install cookiecutter`
+```bash
+pip install -U cookiecutter
+```
 
 
-2. Clone this repository:
+2. In the terminal, navigate to where you want to create your repository and call:
 
-`git clone git@github.com:Thermondo/python-package-template.git`
+```bash
+cookiecutter gh:Thermondo/django-package-template
+```
 
-
-3. In the terminal, navigate to where you want to create your repository and call:
-
-`cookiecutter ~/python-package-template/`
-
-Documentation
--------------
+### Documentation
 
 Cookiecutter documentation can be found here:
 https://cookiecutter.readthedocs.io/
