@@ -34,7 +34,7 @@ writing tests should be reasonably accessible for first time contributors.
 ## Release
 
 We follow [semantic versioning](https://semver.org/). To release a new version
-simply [create a new GitHub release][create-release] specify the version and
+simply [create a new GitHub release][create-release], specify the version and
 add the changelog into the release description.
 
 [create-release]: https://github.com/Thermondo/{{ cookiecutter.project_slug }}/releases/new

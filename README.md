@@ -22,9 +22,9 @@ cookiecutter gh:Thermondo/django-package-template
 Cookiecutter documentation can be found here:
 https://cookiecutter.readthedocs.io/
 
-#### Releasing a package
+### Releasing a package
 
-##### Public PyPi
+#### Public PyPi
 
 To release a new PyPi package you will need the [Travis Client][travis-cli].
 
@@ -39,7 +39,7 @@ Confirm the default values. You will find the PyPi credentials in our
 
 [travis-cli]: https://github.com/travis-ci/travis.rb#readme
 
-##### Private packages
+#### Private packages
 
 We install private packages directly via GitHub.
 
