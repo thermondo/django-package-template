@@ -2,44 +2,50 @@
 
 Cookiecutter template for Python packages
 
-### Usage
+## Usage
 
-1. Install cookiecutter on your machine:
+### Installation
 
-```bash
-pip install -U cookiecutter
-```
+1.  Install Cookiecutter
 
+    ```bash
+    pip install -U cookiecutter
+    ```
+    
+2.  [Install Hub][hub] the GitHub CLI tool.
 
-2. In the terminal, navigate to where you want to create your repository and call:
+3.  To release a new PyPi package you will need the
+    [Travis Client][travis-cli].
+
+[travis-cli]: https://github.com/travis-ci/travis.rb#readme
+
+### Creating the package
+
+In the terminal, navigate to where you want to create your repository and
+call:
 
 ```bash
 cookiecutter gh:Thermondo/django-package-template
 ```
 
-### Documentation
+You will be prompted simply follow the instructions.
+    
+The repository will be created for you automatically and the initial
+boilerplate code will be committed and pushed.
 
-Cookiecutter documentation can be found here:
-https://cookiecutter.readthedocs.io/
+For more information on how to use Cookiecutter, please visit their
+documentation: https://cookiecutter.readthedocs.io/
 
-### Releasing a package
+[hub]: https://github.com/github/hub#installation
 
-#### Public PyPi
+### Setting up the repository
 
-To release a new PyPi package you will need the [Travis Client][travis-cli].
+1.  Go to the repository settings and disable Wikis, Projects and merge commits.
+    
+2.  Go to the repository contributor settings. In the team section add `Developers`
+    with `write` access.
 
-Simply execute the following command and follow the instructions:
-
-```bash
-travis setup pypi --com
-```
-
-Confirm the default values. You will find the PyPi credentials in our
-1Password team vault.
-
-[travis-cli]: https://github.com/travis-ci/travis.rb#readme
-
-#### Private packages
+### Private packages
 
 We install private packages directly via GitHub.
 
