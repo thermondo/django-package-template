@@ -1,6 +1,6 @@
 # Django Package Template
 
-Cookiecutter template for Python packages
+Cookiecutter template for Django packages
 
 ## Usage
 
@@ -14,7 +14,7 @@ Cookiecutter template for Python packages
     
 2.  [Install Hub][hub] the GitHub CLI tool.
 
-3.  To release a new PyPi package you will need the
+3.  To create a public package you will need to install the
     [Travis Client][travis-cli].
 
 [travis-cli]: https://github.com/travis-ci/travis.rb#readme
@@ -28,7 +28,7 @@ call:
 cookiecutter gh:Thermondo/django-package-template
 ```
 
-You will be prompted simply follow the instructions.
+You will be prompted, simply follow the given instructions.
     
 The repository will be created for you automatically and the initial
 boilerplate code will be committed and pushed.
@@ -44,21 +44,3 @@ documentation: https://cookiecutter.readthedocs.io/
     
 2.  Go to the repository contributor settings. In the team section add `Developers`
     with `write` access.
-
-### Private packages
-
-We install private packages directly via GitHub.
-
-For pip simply add
-
-```
--e git+https://GITHUB_TOKEN@github.com/Thermondo/REPO_NAME.git@VERSION_TAG#egg=PACKAGE_NAME
-```
-
-and for Pipenv use
-
-```
-PACKAGE_NAME = {git = "https://GITHUB_TOKEN@github.com/Thermondo/thermondo-salesforce.git", ref = "VERSION_TAG"}
-```
-
-You can find the GitHub access token in our 1Password vault.
